@@ -16,7 +16,7 @@ def useless?(f)
 end
 
 def get_gif_dirs
-  Dir.foreach("gifs").map { |f| f unless useless?(f) }.compact
+  Dir.foreach(".").map { |f| f unless useless?(f) }.compact
 end
 
 def liquid_info_for_file(dir, filename)
@@ -42,7 +42,7 @@ list.ul do |builder|
     builder.li do |dir_element|
       dir_element.text!(dir)
       dir_element.ul do |ul|
-        Dir.glob("#{dir}/**/*.gif") do |gif|
+        Dir.glob("gifs/**/*.gif") do |gif|
           files << liquid_info_for_file(dir, gif)
           ul.li do |li|
             li.a(
