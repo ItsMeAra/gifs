@@ -21,8 +21,8 @@
     var preview = document.getElementById("preview");
 
     function hoverListener(evt) {
+      evt.preventDefault();
       preview.src = evt.target.href;
-      return false;
     };
 
     var links = document.getElementsByClassName("gif");
