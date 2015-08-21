@@ -1,16 +1,3 @@
-// var preview = document.getElementById("preview");
-
-// function hoverListener(evt) {
-// 	evt.preventDefault();
-// 	preview.src = evt.target.href;
-// };
-
-// var links = document.getElementsByClassName("gif");
-// for(var i=0; i<links.length; i++) {
-// 	links[i].addEventListener("click", hoverListener);
-// }
-
-
 var GIF = GIF || {};
 // GIF.App = GIF.App || {};
 
@@ -18,7 +5,15 @@ GIF.App = (function ( $, window, document, undefined ) {
 	'use strict';
 
 
-
+	var _handleSearchFiltering = function ( $searchInput ) {
+	    $searchInput.keyup(function () {
+	        var rex = new RegExp($(this).val(), 'i');
+	        $('.js-searchable').hide();
+	        $('.js-searchable').filter(function () {
+	            return rex.test($(this).text());
+	        }).show();
+	    });
+	};
 
 	var _handleClicks = function ( gifPreviewHolder, gifLinks ) {
 		for(var i=0; i < gifLinks.length; i++) {
@@ -33,9 +28,11 @@ GIF.App = (function ( $, window, document, undefined ) {
 
 	var setup = function () {
 		var gifPreviewHolder = document.getElementById('preview'),
-			gifLinks = document.getElementsByClassName('gif');
+			gifLinks = document.getElementsByClassName('gif'),
+			$searchInput = $('.js-search');
 
 		_handleClicks( gifPreviewHolder, gifLinks );
+		_handleSearchFiltering( $searchInput );
 	};
 
 

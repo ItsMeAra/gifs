@@ -46,7 +46,9 @@ list.ul do |builder|
       dir_element.ul do |ul|
         Dir.glob("#{dir}/**/*.gif") do |gif|
           files << liquid_info_for_file(dir, gif)
-          ul.li do |li|
+          ul.li(
+              "class" => "js-searchable"
+            ) do |li|
             li.a(
               File.basename(gif),
               "href"  => gif,
