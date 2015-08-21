@@ -28,7 +28,7 @@ GIF.App = (function ( $, window, document, undefined ) {
 
 	var setup = function () {
 		var gifPreviewHolder = document.getElementById('preview'),
-			gifLinks = document.getElementsByClassName('gif'),
+			gifLinks = document.getElementsByClassName('gifLink'),
 			$searchInput = $('.js-search');
 
 		_handleClicks( gifPreviewHolder, gifLinks );
