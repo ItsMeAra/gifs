@@ -19,7 +19,7 @@ $purple:              #d070d1;
 $frost:               #e5e5e5;
 
 $baseSpacingUnit:     30px;
-$searchBarHeight:     70px;
+$siteHeaderHeight:    200px;
 
 
 * {
@@ -50,10 +50,14 @@ body {
   left: 0;
 
   width: 100%;
-  height: $searchBarHeight;
+  height: $siteHeaderHeight;
   padding: $baseSpacingUnit/2;
 
   text-align: center;
+
+  h1 {
+    margin: 0 0 $baseSpacingUnit/2;
+  }
 }
 
 
@@ -67,7 +71,7 @@ body {
 
 
 .gifViewer {
-  padding: $searchBarHeight+$baseSpacingUnit $baseSpacingUnit $baseSpacingUnit;
+  padding: $siteHeaderHeight+$baseSpacingUnit $baseSpacingUnit $baseSpacingUnit;
   text-align: center;
 }
   .gifViewer-img {
