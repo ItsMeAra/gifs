@@ -19,7 +19,7 @@ $purple:              #d070d1;
 $frost:               #e5e5e5;
 
 $baseSpacingUnit:     30px;
-$siteHeaderHeight:    200px;
+$siteHeaderHeight:    300px;
 
 
 * {
@@ -40,6 +40,7 @@ body {
   background-color: $frost;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height:1.5;
+  padding-top: $siteHeaderHeight;
 }
 
 .siteHeader {
@@ -88,7 +89,7 @@ body {
 
 // List of gifs
 .gifCollection {
-  padding: 300px $baseSpacingUnit $baseSpacingUnit;
+  padding: $baseSpacingUnit;
 
   margin: 0 0 $baseSpacingUnit/2; 
   padding: 0;
