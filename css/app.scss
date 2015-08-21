@@ -87,6 +87,28 @@ body {
 .gifCollection {
   padding: $baseSpacingUnit;
 
+  margin: 0; padding: 0;
+  // list-style: none;
+  // experimental column support
+  -moz-column-gap: 20px;
+  -moz-column-fill: auto;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 20px;
+  -webkit-column-fill: auto;
+  column-count: 3;
+  column-gap: 20px;
+  column-fill: auto;
+
+  @media (max-width: 1024px) {
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+  @media (max-width: 895px) {
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+
+
   // display: -ms-flexbox;
   // display: flex;
   // -webkit-flex-flow: row wrap;
@@ -109,26 +131,13 @@ body {
   background-color: #ddd;
   border: 1px solid #ccc;
 
-  margin: 0; padding: 0;
-  // list-style: none;
-  // experimental column support
-  -moz-column-gap: 20px;
-  -moz-column-fill: auto;
-  -webkit-column-count: 3;
-  -webkit-column-gap: 20px;
-  -webkit-column-fill: auto;
-  column-count: 3;
-  column-gap: 20px;
-  column-fill: auto;
 
-  @media (max-width: 1024px) {
-    -webkit-column-count: 2;
-    column-count: 2;
-  }
-  @media (max-width: 895px) {
-    -webkit-column-count: 1;
-    column-count: 1;
-  }
+
+  //  experimental column support
+      -moz-column-break-inside: avoid;
+      -webkit-column-break-inside: avoid;
+      column-break-inside: avoid;
+
 }
 
   .gifSet-title {
