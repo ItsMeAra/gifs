@@ -48,15 +48,15 @@ list.div(
       ) do |dir_element|
       dir_element.h3(
         File.basename(dir),
-        "class" => "gifSet-title"
+        "class" => "gifSet-title  js-searchable"
       )
       dir_element.ul(
-          "class" => "gifSet-list"
+          "class" => "gifSet-list  js-searchable"
         ) do |ul|
         Dir.glob("#{dir}/**/*.gif") do |gif|
           files << liquid_info_for_file(dir, gif)
           ul.li(
-              "class" => "gifSet-list-item  js-searchable"
+              "class" => "gifSet-list-item  "
             ) do |li|
             li.a(
               File.basename(gif),
