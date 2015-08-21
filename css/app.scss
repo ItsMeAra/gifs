@@ -64,7 +64,8 @@ body {
 
 
 .searchBar {
-
+  padding: $baseSpacingUnit/2;
+  text-align: center;
 }
   .searchBar-input {
     padding: 5px 15px;
