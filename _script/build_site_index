@@ -44,14 +44,14 @@ list.div(
   ) do |builder|
   dirs.each do |dir|
     builder.div(
-        "class" => "gifSet"
+        "class" => "gifSet  js-searchable"
       ) do |dir_element|
       dir_element.h3(
         File.basename(dir),
-        "class" => "gifSet-title  js-searchable"
+        "class" => "gifSet-title"
       )
       dir_element.ul(
-          "class" => "gifSet-list  js-searchable"
+          "class" => "gifSet-list  "
         ) do |ul|
         Dir.glob("#{dir}/**/*.gif") do |gif|
           files << liquid_info_for_file(dir, gif)
