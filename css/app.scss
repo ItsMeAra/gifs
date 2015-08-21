@@ -69,12 +69,14 @@ body {
 // List of gifs
 .gifCollection {
   padding: $baseSpacingUnit;
+
+  display: flex;
 }
 
 
 // Set of gifs
 .gifSet {
-
+  flex: 1;
 }
 
   .gifSet-title {
