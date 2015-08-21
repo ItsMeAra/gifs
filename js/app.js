@@ -18,22 +18,22 @@ GIF.App = (function ( $, window, document, undefined ) {
 	'use strict';
 
 
-	var _handleImageSwap = function ( evt, gifPreviewHolder, gifLinks ) {
-		evt.preventDefault();
-		gifPreviewHolder.src = evt.target.href;
-	};
+
 
 	var _handleClicks = function ( gifPreviewHolder, gifLinks ) {
 		for(var i=0; i < gifLinks.length; i++) {
-			gifLinks[i].addEventListener( 'click', _handleImageSwap( gifPreviewHolder ) );
+			gifLinks[i].addEventListener( 'click', function( evt ){
+				evt.preventDefault();
+				gifPreviewHolder.src = evt.target.href;
+			});
 		}
 	};
 
 	
 
 	var setup = function () {
-		var gifPreviewHolder = document.getElementById('preview');
-		var gifLinks = document.getElementsByClassName('gif');
+		var gifPreviewHolder = document.getElementById('preview'),
+			gifLinks = document.getElementsByClassName('gif');
 
 		_handleClicks( gifPreviewHolder, gifLinks );
 	};
