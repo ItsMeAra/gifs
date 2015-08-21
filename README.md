@@ -2,7 +2,7 @@
 
 Storage place for all my favorite gifs.
 
-![looks like im working](gifs/office-space/looks-like-im-working.gif)
+![looks like im working](gif-library/office-space/looks-like-im-working.gif)
 
 Forked from [Joel Glovier's](https://github.com/jglovier/) [awesome project](https://github.com/jglovier/gifs) and customized to my liking. 
 
