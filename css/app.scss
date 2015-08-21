@@ -19,7 +19,7 @@ $purple:              #d070d1;
 $frost:               #e5e5e5;
 
 $baseSpacingUnit:     30px;
-$searchBarHeight:     60px;
+$searchBarHeight:     70px;
 
 
 * {
@@ -51,9 +51,15 @@ body {
 
   width: 100%;
   height: $searchBarHeight;
+  padding: $baseSpacingUnit/2;
 
   text-align: center;
 }
+  .searchBar-input {
+    padding: 5px 15px;
+
+  }
+
 
 
 .gifViewer {
