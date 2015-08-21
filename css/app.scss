@@ -42,7 +42,7 @@ body {
   line-height:1.5;
 }
 
-.searchBar {
+.siteHeader {
   background-color: $navy_bg;
 
   position: fixed;
@@ -55,9 +55,13 @@ body {
 
   text-align: center;
 }
+
+
+.searchBar {
+
+}
   .searchBar-input {
     padding: 5px 15px;
-
   }
 
 
@@ -98,7 +102,10 @@ body {
 
 // Set of gifs
 .gifSet {
-  width: 350px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+
+  // width: 350px;
   margin: 0;
   overflow: hidden;
   -webkit-flex: 0 1 100%;
@@ -123,16 +130,32 @@ body {
 }
 
   .gifSet-title {
-
+    text-transform: capitalize;
   }
 
   .gifSet-list {
-
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
     .gifSet-list-item {
+      border-bottom: 1px solid #ccc;
 
       a {
-
+        display: block;
+        padding: $baseSpacingUnit/2;
       }
     }
+
+
+
+
+.siteFooter {
+  background-color: $navy_bg;
+  color: $blue_text_lht;
+
+  .siteFooter-content {
+    padding: $baseSpacingUnit;
+  }
+}
