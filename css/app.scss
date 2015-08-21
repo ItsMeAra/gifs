@@ -57,6 +57,7 @@ body {
 
   h1 {
     margin: 0 0 $baseSpacingUnit/2;
+    color: $blue_text_lht;
   }
 }
 
@@ -71,12 +72,14 @@ body {
 
 
 .gifViewer {
-  padding: $siteHeaderHeight+$baseSpacingUnit $baseSpacingUnit $baseSpacingUnit;
   text-align: center;
 }
   .gifViewer-img {
-    min-height: 300px;
+  
   }
+    .gifViewer-img-gif {
+      height: 200px;
+    }
 
 
 
@@ -85,9 +88,10 @@ body {
 
 // List of gifs
 .gifCollection {
-  padding: $baseSpacingUnit;
+  padding: 300px $baseSpacingUnit $baseSpacingUnit;
 
-  margin: 0; padding: 0;
+  margin: 0 0 $baseSpacingUnit/2; 
+  padding: 0;
   // list-style: none;
   // experimental column support
   -moz-column-gap: 20px;
