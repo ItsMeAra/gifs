@@ -21,6 +21,7 @@ $frost:               #e5e5e5;
 
 $baseSpacingUnit:     30px;
 $siteHeaderHeight:    300px;
+$siteHeaderWidth:    300px;
 
 
 * {
@@ -41,7 +42,7 @@ body {
   background-color: $frost;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height:1.5;
-  padding-top: $siteHeaderHeight;
+  padding-left: $siteHeaderWidth;
 }
 
 
@@ -59,7 +60,8 @@ a, a:hover, a:visited {
   top: 0;
   left: 0;
 
-  width: 100%;
+  width: $siteHeaderWidth;
+  height: 100%;
   // height: $siteHeaderHeight;
   padding: $baseSpacingUnit/2;
 
@@ -101,7 +103,7 @@ a, a:hover, a:visited {
 .gifCollection {
   padding: $baseSpacingUnit;
 
-  margin: 0 0 $baseSpacingUnit/2; 
+  margin: 0; 
   padding: 0;
   // list-style: none;
   // experimental column support
