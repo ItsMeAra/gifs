@@ -21,7 +21,7 @@ $frost:               #e5e5e5;
 
 $baseSpacingUnit:     30px;
 $siteHeaderHeight:    300px;
-$siteHeaderWidth:    300px;
+$siteHeaderWidth:     400px;
 
 
 * {
@@ -66,10 +66,11 @@ a, a:hover, a:visited {
   padding: $baseSpacingUnit/2;
 
   text-align: center;
+  color: $blue_text_lht;
 
   h1 {
     margin: 0 0 $baseSpacingUnit/2;
-    color: $blue_text_lht;
+    color: inherit;
   }
 }
 
@@ -84,17 +85,15 @@ a, a:hover, a:visited {
 
 
 
-.gifViewer {
-  text-align: center;
-}
-  .gifViewer-img {
-  
-  }
+// .gifViewer {
+//   text-align: center;
+// }
+  // .gifViewer-img {
+    
+  // }
     .gifViewer-img-gif {
-      height: 200px;
+      width: 100%;
     }
-
-
 
 
 
