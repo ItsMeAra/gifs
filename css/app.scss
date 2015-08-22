@@ -46,8 +46,12 @@ body {
 }
 
 
-a, a:hover, a:visited {
-  color: $blue_text_drkr;
+a, a:visited {
+  color: $blue_text_drk;
+  &:hover {
+    color: $blue_text_lht;
+    text-decoration: underline;
+  }
 }
 
 
@@ -81,7 +85,7 @@ a, a:hover, a:visited {
 
 
 .searchBar {
-  padding: $baseSpacingUnit/2;
+  padding-top: $baseSpacingUnit/2;
   text-align: center;
 }
   .searchBar-input {
@@ -180,9 +184,12 @@ a, a:hover, a:visited {
         display: block;
         padding: $baseSpacingUnit/2;
         text-decoration: none;
+        color: $blue_text_drkr;
         
         &:hover {
           background-color: $blue_light;
+          color: $blue_text_drkr;
+          text-decoration: none;
         }
       }
     }
