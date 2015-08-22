@@ -43,6 +43,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height:1.5;
   padding-left: $siteHeaderWidth;
+  height: 100%;
 }
 
 
@@ -110,10 +111,9 @@ a, a:visited {
 
 // List of gifs
 .gifCollection {
-  padding: $baseSpacingUnit;
-
+  height: 100vh;
+  padding: $baseSpacingUnit/2;
   margin: 0; 
-  padding: 0;
   // list-style: none;
   // experimental column support
   -moz-column-gap: 20px;
