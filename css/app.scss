@@ -52,6 +52,11 @@ a, a:hover, a:visited {
 
 
 
+.description {
+  margin-bottom: $baseSpacingUnit;
+}
+
+
 
 .siteHeader {
   background-color: $navy_bg;
@@ -81,6 +86,7 @@ a, a:hover, a:visited {
 }
   .searchBar-input {
     padding: 5px 15px;
+    width: 100%;
   }
 
 

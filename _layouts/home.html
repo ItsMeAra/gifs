@@ -10,18 +10,18 @@
     <body>
 
         <header class="siteHeader">
-            <section class="gifViewer">
+            <div class="description">
+                {{ content }}
+            </div>
+                        
+            <div class="gifViewer">
                 <div class="gifViewer-img">
                     <img src="gif-library/why-you/i-see-what-you-did-there.gif" id="preview" class="gifViewer-img-gif">
                 </div>
-            </section>   
+            </div>   
 
             <div class="searchBar">
                 <input type="text" class="searchBar-input  js-search" placeholder="Filter through gifs">
-            </div>
-
-            <div class="description">
-                {{ content }}
             </div>
         </header>
 
