@@ -43,6 +43,16 @@ body {
   padding-top: $siteHeaderHeight;
 }
 
+
+a {
+  color: $blue_text_drk;
+
+  &:hover {
+    color: $blue_text_drk;
+}
+
+
+
 .siteHeader {
   background-color: $navy_bg;
 
@@ -148,7 +158,7 @@ body {
 }
 
   .gifSet-title {
-    text-transform: capitalize;
+    text-transform: uppercase;
   }
 
   .gifSet-list {
@@ -163,7 +173,11 @@ body {
       a {
         display: block;
         padding: $baseSpacingUnit/2;
-      }
+        text-decoration: none;
+        
+        &:hover {
+          background-color: $blue_light;
+        }
     }
 
 
