@@ -9,6 +9,7 @@
 $navy_bg:             #263648;
 $navy_bg_light:       #2f4358;
 $blue_text_drk:       #6784a2;
+$blue_text_drkr:      darken($blue_text_drk, 5%);
 $blue_text:           #66adfb;
 $blue_text_lht:       #97afc8;
 $blue_light:          #d2dae3;
@@ -44,13 +45,10 @@ body {
 }
 
 
-a {
-  color: $blue_text_drk;
-
-  &:hover {
-    color: $blue_text_drk;
-  }
+a, a:hover, a:visited {
+  color: $blue_text_drkr;
 }
+
 
 
 
