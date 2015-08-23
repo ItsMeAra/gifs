@@ -1,30 +1,9 @@
 ---
-- path: gif-library/al-bundy/al-bundy-confused.gif
-  modified_time: 1439963397
-  extname: ".gif"
-- path: gif-library/al-bundy/al-bundy-excited.gif
-  modified_time: 1439963347
-  extname: ".gif"
 - path: gif-library/angry/alen-rickman.gif
-  modified_time: 1439962354
-  extname: ".gif"
-- path: gif-library/angry/amy-pohler-rage.gif
-  modified_time: 1439962354
-  extname: ".gif"
-- path: gif-library/angry/chris-farley.gif
   modified_time: 1439962354
   extname: ".gif"
 - path: gif-library/angry/chuck-norris-punch.gif
   modified_time: 1439962354
-  extname: ".gif"
-- path: gif-library/angry/conan-ragequit.gif
-  modified_time: 1439962354
-  extname: ".gif"
-- path: gif-library/angry/DataBSOD.gif
-  modified_time: 1439962354
-  extname: ".gif"
-- path: gif-library/angry/frustrated-cpu-smash.gif
-  modified_time: 1439963916
   extname: ".gif"
 - path: gif-library/angry/hulk-smash.gif
   modified_time: 1440298649
@@ -35,12 +14,6 @@
 - path: gif-library/angry/Kramer-whaaa.gif
   modified_time: 1439962354
   extname: ".gif"
-- path: gif-library/angry/mark-smash-cpu.gif
-  modified_time: 1440298699
-  extname: ".gif"
-- path: gif-library/angry/noooo.gif
-  modified_time: 1439962355
-  extname: ".gif"
 - path: gif-library/angry/obama-kicks-door.gif
   modified_time: 1439962355
   extname: ".gif"
@@ -48,9 +21,6 @@
   modified_time: 1440299281
   extname: ".gif"
 - path: gif-library/angry/office-tableflip.gif
-  modified_time: 1439962355
-  extname: ".gif"
-- path: gif-library/angry/outta-here.gif
   modified_time: 1439962355
   extname: ".gif"
 - path: gif-library/angry/robin-doesnt-work.gif
@@ -62,14 +32,8 @@
 - path: gif-library/angry/stab-berserker-barrage.gif
   modified_time: 1439963164
   extname: ".gif"
-- path: gif-library/angry/stick-fts.gif
-  modified_time: 1439964685
-  extname: ".gif"
 - path: gif-library/angry/stick-fuuuu.gif
   modified_time: 1439963875
-  extname: ".gif"
-- path: gif-library/angry/stick-rage.gif
-  modified_time: 1439963851
   extname: ".gif"
 - path: gif-library/angry/superman-fly.gif
   modified_time: 1440298942
@@ -103,6 +67,9 @@
   extname: ".gif"
 - path: gif-library/clap/picard-slow-clap.gif
   modified_time: 1440299604
+  extname: ".gif"
+- path: gif-library/confused/al-bundy-confused.gif
+  modified_time: 1439963397
   extname: ".gif"
 - path: gif-library/deal-with-it/deal-with-it-dance.gif
   modified_time: 1440299784
@@ -157,12 +124,6 @@
   extname: ".gif"
 - path: gif-library/escaladed-quickly/oh-god-its-cancer.gif
   modified_time: 1439963958
-  extname: ".gif"
-- path: gif-library/excited/al-bundy-excited.gif
-  modified_time: 1439963347
-  extname: ".gif"
-- path: gif-library/excited/carlton-dance.gif
-  modified_time: 1439964045
   extname: ".gif"
 - path: gif-library/facepalm/picard-facepalm-o.gif
   modified_time: 1440299379
@@ -227,8 +188,35 @@
 - path: gif-library/happy/al-bundy-excited.gif
   modified_time: 1439963347
   extname: ".gif"
+- path: gif-library/happy/anchorman.gif
+  modified_time: 1440301111
+  extname: ".gif"
 - path: gif-library/happy/aziz-smile.gif
   modified_time: 1440298897
+  extname: ".gif"
+- path: gif-library/happy/bear-in-the-big-blue-house.gif
+  modified_time: 1440301183
+  extname: ".gif"
+- path: gif-library/happy/bill-murray.gif
+  modified_time: 1440300640
+  extname: ".gif"
+- path: gif-library/happy/carlton-dance.gif
+  modified_time: 1439964045
+  extname: ".gif"
+- path: gif-library/happy/excited-baby.gif
+  modified_time: 1440301100
+  extname: ".gif"
+- path: gif-library/happy/happy-dance.gif
+  modified_time: 1440300667
+  extname: ".gif"
+- path: gif-library/happy/inglorious-bastards.gif
+  modified_time: 1440301143
+  extname: ".gif"
+- path: gif-library/happy/monty-python.gif
+  modified_time: 1440301090
+  extname: ".gif"
+- path: gif-library/happy/super-happy-dance.gif
+  modified_time: 1440301072
   extname: ".gif"
 - path: gif-library/idgaf/idgaf-dance.gif
   modified_time: 1440298855
@@ -298,6 +286,12 @@
   extname: ".gif"
 - path: gif-library/no/no_way_Neil_deGrasse_Tyson.gif
   modified_time: 1439962350
+  extname: ".gif"
+- path: gif-library/no/noooo.gif
+  modified_time: 1439962355
+  extname: ".gif"
+- path: gif-library/no/outta-here.gif
+  modified_time: 1439962355
   extname: ".gif"
 - path: gif-library/no/QA-rejected.gif
   modified_time: 1439962350
@@ -416,6 +410,36 @@
 - path: gif-library/smh/wire-smh.gif
   modified_time: 1439963761
   extname: ".gif"
+- path: gif-library/success/down-stairs.gif
+  modified_time: 1440300865
+  extname: ".gif"
+- path: gif-library/success/eat-success.gif
+  modified_time: 1440300877
+  extname: ".gif"
+- path: gif-library/success/fist-pump.gif
+  modified_time: 1440301026
+  extname: ".gif"
+- path: gif-library/success/hell-yes.gif
+  modified_time: 1440301003
+  extname: ".gif"
+- path: gif-library/success/kid-wins.gif
+  modified_time: 1440300927
+  extname: ".gif"
+- path: gif-library/success/kid-wins02.gif
+  modified_time: 1440300948
+  extname: ".gif"
+- path: gif-library/success/nph-approves.gif
+  modified_time: 1440300976
+  extname: ".gif"
+- path: gif-library/success/success-dance.gif
+  modified_time: 1440301015
+  extname: ".gif"
+- path: gif-library/success/success-golf-shot.gif
+  modified_time: 1440301037
+  extname: ".gif"
+- path: gif-library/success/victory.gif
+  modified_time: 1440300990
+  extname: ".gif"
 - path: gif-library/the-big-lebowski/deal-with-it.gif
   modified_time: 1439964391
   extname: ".gif"
@@ -455,6 +479,9 @@
 - path: gif-library/wasted/table-side-break.gif
   modified_time: 1439964237
   extname: ".gif"
+- path: gif-library/web-dev/DataBSOD.gif
+  modified_time: 1439962354
+  extname: ".gif"
 - path: gif-library/web-dev/family-guy-css.gif
   modified_time: 1439962355
   extname: ".gif"
@@ -463,6 +490,9 @@
   extname: ".gif"
 - path: gif-library/web-dev/fu-computer.gif
   modified_time: 1440299165
+  extname: ".gif"
+- path: gif-library/web-dev/mark-smash-cpu.gif
+  modified_time: 1440298699
   extname: ".gif"
 - path: gif-library/web-dev/robin-doesnt-work.gif
   modified_time: 1439964777
