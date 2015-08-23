@@ -13,14 +13,8 @@ $blue_text_drkr:      darken($blue_text_drk, 5%);
 $blue_text:           #66adfb;
 $blue_text_lht:       #97afc8;
 $blue_light:          #d2dae3;
-$green:               #00bd9c;
-$red:                 #ff6d6f;
-$yellow:              #f8f65e;
-$purple:              #d070d1;
 $frost:               #e5e5e5;
-
 $baseSpacingUnit:     30px;
-$siteHeaderHeight:    300px;
 $siteHeaderWidth:     400px;
 
 
@@ -72,7 +66,6 @@ a, a:visited {
 
   width: $siteHeaderWidth;
   height: 100%;
-  // height: $siteHeaderHeight;
   padding: $baseSpacingUnit/2;
 
   text-align: center;
@@ -107,8 +100,6 @@ a, a:visited {
     }
 
 
-
-
 // List of gifs
 .gifCollection {
   height: 100%;
@@ -132,23 +123,7 @@ a, a:visited {
   @media (max-width: 895px) {
     -webkit-column-count: 1;
     column-count: 1;
-  }
-
-
-  // display: -ms-flexbox;
-  // display: flex;
-  // -webkit-flex-flow: row wrap;
-  // -moz-flex-flow: row wrap;
-  // flex-flow: row wrap;
-  // -webkit-justify-content: center;
-  // -moz-justify-content: center;
-  // justify-content: center;
-
-  // @media (min-width: 1000px) {
-  //     -webkit-justify-content: flex-start;
-  //     -moz-justify-content: flex-start;
-  //     justify-content: flex-start;
-  // }  
+  } 
 }
 
 
@@ -193,15 +168,3 @@ a, a:visited {
         }
       }
     }
-
-
-
-
-.siteFooter {
-  background-color: $navy_bg;
-  color: $blue_text_lht;
-
-  .siteFooter-content {
-    padding: $baseSpacingUnit;
-  }
-}
