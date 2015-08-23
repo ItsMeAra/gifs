@@ -15,11 +15,12 @@ GIF.App = (function ( $, window, document, undefined ) {
 	    });
 	};
 
-	var _handleClicks = function ( gifPreviewHolder, gifLinks ) {
+	var _handleClicks = function ( gifPreviewImg, gifLinks, gifImgLink ) {
 		for(var i=0; i < gifLinks.length; i++) {
 			gifLinks[i].addEventListener( 'click', function( evt ){
 				evt.preventDefault();
-				gifPreviewHolder.src = evt.target.href;
+				gifPreviewImg.src = evt.target.href;
+				gifImgLink.href = evt.target.href;
 			});
 		}
 	};
@@ -27,11 +28,12 @@ GIF.App = (function ( $, window, document, undefined ) {
 	
 
 	var setup = function () {
-		var gifPreviewHolder = document.getElementById('preview'),
-			gifLinks = document.getElementsByClassName('gifLink'),
+		var gifPreviewImg = document.getElementsByClassName('js-gifImg'),
+			gifImgLink = document.getElementsByClassName('js-gifImgLink'),
+			gifLinks = document.getElementsByClassName('js-gifLink'),
 			$searchInput = $('.js-search');
 
-		_handleClicks( gifPreviewHolder, gifLinks );
+		_handleClicks( gifPreviewImg, gifLinks, gifImgLink );
 		_handleSearchFiltering( $searchInput );
 	};
 
