@@ -28,7 +28,7 @@ GIF.App = (function ( $, window, document, undefined ) {
 	
 
 	var setup = function () {
-		var gifPreviewImg = document.getElementById('js-gifImg'),
+		var gifPreviewImg = document.getElementById('js-gifPreviewImg'),
 			gifImgLink = document.getElementById('js-gifImgLink'),
 			gifLinks = document.getElementsByClassName('js-gifLink'),
 			$searchInput = $('.js-search');
