@@ -293,9 +293,6 @@
 - path: gif-library/no/outta-here.gif
   modified_time: 1439962355
   extname: ".gif"
-- path: gif-library/no/QA-rejected.gif
-  modified_time: 1439962350
-  extname: ".gif"
 - path: gif-library/no/smokey-hell-naw.gif
   modified_time: 1440298819
   extname: ".gif"
@@ -493,6 +490,9 @@
   extname: ".gif"
 - path: gif-library/web-dev/mark-smash-cpu.gif
   modified_time: 1440298699
+  extname: ".gif"
+- path: gif-library/web-dev/QA-rejected.gif
+  modified_time: 1439962350
   extname: ".gif"
 - path: gif-library/web-dev/robin-doesnt-work.gif
   modified_time: 1439964777
